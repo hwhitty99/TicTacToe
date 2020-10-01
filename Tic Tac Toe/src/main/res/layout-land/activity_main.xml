@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_horizontal|center_vertical">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/square1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="415dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/square4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square6"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/square7"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/square9"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:freezesText="true"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_span="3"
+            android:freezesText="true"
+            android:gravity="center"
+            android:lines="2"
+            android:maxLines="2"
+            android:padding="10dp"
+            android:text="@string/message_label"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/newGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_span="3"
+            android:text="@string/new_game_button"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>
